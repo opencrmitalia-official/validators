@@ -3,7 +3,7 @@
 # https://misc.flogisoft.com/bash/tip_colors_and_formatting
 
 good() {
-  echo ">> $1: \e[1m\e[32m[OK!]\e[0m"
+  echo -e ">> $1: \e[1m\e[32m[OK!]\e[0m"
 }
 
 fail() {
