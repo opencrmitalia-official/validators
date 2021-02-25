@@ -12,6 +12,9 @@ fail() {
 
 release=$(lsb_release -r | grep "Release:" | cut -d: -f2 | xargs)
 
+echo "Inizio fare di controllo..."
+echo ""
+
 if [[ "$release" = "18.04" ]]; then
   good "Release di ubuntu corretta"
 else
