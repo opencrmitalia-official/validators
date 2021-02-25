@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# https://misc.flogisoft.com/bash/tip_colors_and_formatting
+
 good() {
   echo ">> $1: OK!"
 }
